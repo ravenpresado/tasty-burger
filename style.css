@@ -152,13 +152,29 @@ nav a:hover {
 
 /* STAR RATING */
 .rating {
-    color: #e6b63e;
-    font-size: 17px;
-    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
     margin-top: 15px;
     margin-bottom: 10px;
 }
 
+.star-button {
+    border: none;
+    background: transparent;
+    color: #cccccc;
+    font-size: 17px;
+    cursor: pointer;
+    padding: 0;
+}
+
+.star-button.active {
+    color: #e6b63e;
+}
+
+.star-button:hover {
+    color: #e6b63e;
+}
 /* PRODUCT TITLE */
 .product-title {
     display: flex;
@@ -178,8 +194,16 @@ nav a:hover {
     color: #c64b37;
     font-size: 27px;
     cursor: pointer;
+    transition: 0.2s;
 }
 
+.favorite.active {
+    color: #c64b37;
+}
+
+.favorite:hover {
+    transform: scale(1.15);
+}
 /* DESCRIPTION */
 .description {
     font-size: 12px;
