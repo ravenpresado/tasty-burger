@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasty Burger | Our Crazy Burgers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container navbar">
+            <div class="logo">
+                <span class="burger-icon">🍔</span>
+                <div class="logo-text">
+                    <h2>TASTY</h2>
+                    <h2>BURGER</h2>
+                </div>
+            </div>
+
+            <nav>
+                <a href="#about">ABOUT</a>
+                <a href="#menu">OUR MENU</a>
+                <a href="#shop">SHOP</a>
+                <a href="#contact">CONTACT</a>
+                <a href="#cart" class="cart">
+                    🛒 <span id="cart-count">0</span>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- MAIN SECTION -->
+    <main class="container">
+        <section class="burger-section" id="menu">
+            <div class="section-heading">
+                <h1>OUR CRAZY BURGERS</h1>
+                <p>
+                    Get ready for a wild ride of flavors! Our crazy burgers
+                    are loaded with juicy patties, bold toppings, and
+                    irresistible sauces, all stacked on a perfectly toasted
+                    bun. Whether you like it cheesy or extra meaty, we've
+                    got a burger that will blow your mind!
+                </p>
+            </div>
+
+            <!-- BURGER PRODUCTS -->
+            <div class="burger-grid" id="shop">
+
+                <!-- PRODUCT 1 -->
+                <div class="burger-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600"
+                        alt="Crispy Chicken Burger"
+                    >
+                    <div class="rating">
+                        ★★★★★
+                    </div>
+                    <div class="product-title">
+                        <h3>Crispy Chicken</h3>
+                        <button class="favorite">♡</button>
+                    </div>
+                    <p class="description">
+                        Crispy chicken with fresh lettuce and creamy sauce.
+                    </p>
+                    <span class="price">₱99.15</span>
+                </div>
+
+                <!-- PRODUCT 2 -->
+                <div class="burger-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1553979459-d2229ba7433a?w=600"
+                        alt="Ultimate Bacon Burger"
+                     >
+                    <div class="rating">
+                        ★★★★★
+                    </div>
+
+                    <div class="product-title">
+                        <h3>Ultimate Bacon</h3>
+                        <button class="favorite">♡</button>
+                    </div>
+                    <p class="description">
+                        Juicy beef patty topped with bacon and cheese.
+                    </p>
+                    <span class="price">₱99.32</span>
+                </div>
+
+                <!-- PRODUCT 3 -->
+                <div class="burger-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=600"
+                        alt="Black Sheep Burger"
+                    >
+                    <div class="rating">
+                        ★★★★★
+                    </div>
+
+                    <div class="product-title">
+                        <h3>Black Sheep</h3>
+                        <button class="favorite">♡</button>
+                    </div>
+                    <p class="description">
+                        Delicious grilled beef with fresh vegetables.
+                    </p>
+                    <span class="price">₱69.15</span>
+                </div>
+
+                <!-- PRODUCT 4 -->
+                <div class="burger-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1520072959219-c595dc870360?w=600"
+                        alt="Vegan Burger"
+                    >
+                    <div class="rating">
+                        ★★★★★
+                    </div>
+                    <div class="product-title">
+                        <h3>Vegan Burger</h3>
+                        <button class="favorite">♡</button>
+                    </div>
+                    <p class="description">
+                        A tasty plant-based burger with fresh ingredients.
+                    </p>
+                    <span class="price">₱99.25</span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
